@@ -1,72 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-body {
-    background-color: rgb(172, 251, 225);
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.record-btn {
-    font-size: 20px;
-    padding: 20px 40px;
-    background-color: #013976;
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin-left: 00px;
-    border-radius: 10px;
-}
-
-.record-btn:hover {
-    background-color: #0056b3;
-}
-
-.video-popup {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-}
-
-.video-popup video {
-    width: 100%;
-}
-
-.close-btn {
-    margin-top: 10px;
-    padding: 5px 10px;
-    background-color: red;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
-body {
-    background: #9143f8;
-
+.body {
+    background-color: #9143f8;
 }
 ::selection {
     color: #fff;
@@ -88,11 +27,11 @@ body {
     transition: background 0.1s linear,border-color 0.1s linear, color 0.1s linear;
 }
 .view-modal{
-    top: 10%;
-    Left: 90%;
-    margin-left: 100px;
     color: #eBe4ee;
+    margin-left: -200px;
+    margin-top: 33px;
     font-weight: bold;
+    border: none;
     font-size: 18px;
     padding: 10px 25px;
     background: rgb(113, 5, 156);
@@ -263,4 +202,58 @@ background: #46C1F6;
     }
 .icons a:hover i{ 
     transform: scale(1.2);
+    }
+
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .record-btn {
+        font-size: 20px;
+        padding: 20px 40px;
+        background-color: #013976;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-left: 0px;
+        margin-top: 300px;
+        border-radius: 10px;
+    }
+    
+    .record-btn:hover {
+        background-color: #0056b3;
+    }
+    
+    .video-popup {
+        display:none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .video-popup video {
+        width: 100%;
+    }
+    
+    .close-btn {
+        margin-top: 10px;
+        padding: 10px 25px;
+        background: rgb(113, 5, 156);
+        font-size: 18px;
+        transition: all 0.3s ease-in-out;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .close-btn:hover{
+        background: #dfa8f5;
+        color: rgb(56, 3, 77);
     }
