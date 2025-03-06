@@ -4,8 +4,8 @@
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
 }
-.body {
-    background-color: #9143f8;
+.body{
+    background: #9143f8;
 }
 ::selection {
     color: #fff;
@@ -15,7 +15,6 @@
 .view-modal, .popup {
     position: absolute;
     left: 50%; 
-
 }
 
 .button{
@@ -214,9 +213,10 @@ background: #46C1F6;
     .record-btn {
         font-size: 20px;
         padding: 20px 40px;
-        background-color: #013976;
+        background-color: #e1306c; 
         color: white;
         border: none;
+        transition: 0.2s ease-in-out;
         cursor: pointer;
         margin-left: 0px;
         margin-top: 300px;
@@ -224,7 +224,7 @@ background: #46C1F6;
     }
     
     .record-btn:hover {
-        background-color: #0056b3;
+        background-color: #ca1551; 
     }
     
     .video-popup {
